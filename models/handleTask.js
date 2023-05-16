@@ -28,7 +28,6 @@ function handleTask(response) {
       updateEmployeeRole(response);
       break;
     case "EXIT":
-      displayExitText();
       process.exit(0);
   }
 }

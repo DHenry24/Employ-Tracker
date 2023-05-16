@@ -1,5 +1,5 @@
 const db = require("./config/connection.js");
-const selectTask = require("./lib/selectTask.js");
+const selectTask = require("./models/selectTask.js");
 
 // handle errors or start application
 db.connect(function (err) {
